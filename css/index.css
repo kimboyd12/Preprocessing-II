@@ -174,18 +174,44 @@ img {
   border-bottom: 2px dashed silver;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    border-bottom: none;
+  }
+}
 .navbar nav {
   display: flex;
   width: 60%;
   margin-left: 45%;
+}
+@media (max-width: 500px) {
+  .navbar nav {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 3%;
+    border-bottom: 2px dashed silver;
+  }
 }
 .navbar nav a {
   font-size: 1.6rem;
   margin-left: 8%;
   padding-top: 5%;
 }
+@media (max-width: 500px) {
+  .navbar nav a {
+    margin-left: 8%;
+  }
+}
 .navbar h1 {
   width: 30%;
+}
+@media (max-width: 500px) {
+  .navbar h1 {
+    margin-left: 35%;
+  }
 }
 .footer {
   width: 100%;
