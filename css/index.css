@@ -171,7 +171,8 @@ img {
 .navbar {
   display: flex;
   padding: 6% 0%;
-  border-bottom: 2px dashed lightgrey;
+  border-bottom: 2px dashed silver;
+  width: 100%;
 }
 .navbar nav {
   display: flex;
@@ -213,6 +214,13 @@ img {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+.home .head-content h2 {
+  padding: 2% 0%;
+}
+.home .head-content p {
+  padding-bottom: 2%;
+  border-bottom: 2px dashed silver;
 }
 .home .inverse-content {
   padding-bottom: 30px;
